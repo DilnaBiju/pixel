@@ -1,0 +1,41 @@
+
+    body {
+            font-family: Arial, sans-serif;
+            background-color:#FAD6A5; 
+            margin: 0;
+            padding: 0;
+        }
+    header {
+            background-color: #8B4513;
+            color:#FAD6A5; 
+            text-align: center;
+            padding: 20px;
+            border-bottom: 5px solid #FAD6A5; 
+        }
+    header img {
+            width: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            vertical-align: middle;
+        }
+
+    img { width :200px;
+        border-radius:  50px;
+        float: left;
+        margin-right: 10px;
+        }
+    h1 {
+            font-size: 30px;
+            margin: 10px 0;
+            font-family: 'Kaushan Script', cursive;
+
+        }
+
+    h3 {
+            font-size: 24px;
+            font-weight: normal;
+            color: #8B4513; 
+            font-style: italic ;     
+         }
+
+
