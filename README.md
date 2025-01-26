@@ -13,7 +13,7 @@
 https://pixel-8xqj.onrender.com/
 
 ### Project Description
-[2-3 lines about what your project does]
+Our project "PAW PRINT" is a platform for pet lovers to know more about pet and pet care. It also includes some additonal features like- Enroll in a pet talent show to case their pet's skills and an exciting tab for the pet star of the month. This website will be informative for the pet owners.
 
 ### The Problem statement
 What can pet owners do to help their pets?
@@ -26,19 +26,9 @@ A fun website for petowners for tips and to enroll their pets for a talent show.
 For Software:
 - Frontend-HTML,CSS,JavaScript
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![WhatsApp Image 2025-01-26 at 8 16 31 AM](https://github.com/user-attachments/assets/23040468-5ebc-45a3-a816-c0579582add1)
+
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
