@@ -9,12 +9,10 @@
            padding: 0;
            background-color: #8B4513;
        }
-
        h1 {
            text-align: center;
            margin-top: 30px;
        }
-
        .container {
            display: grid;
            grid-template-columns: repeat(2, 1fr); 
@@ -22,16 +20,18 @@
            padding: 20px;
            max-width: 1200px;
            margin: 0 auto;
+           justify-items: center;
        }
 
        .tip-box {
            background-color: #FAD6A5 ;
            border-radius: 8px;
            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-           padding: 20px;
+           padding: 30px;
            transition: transform 0.3s ease;
+           position: relative;
+           left: 90px;
        }
-
        .tip-box:hover {
            transform: translateY(-5px);
        }
@@ -55,8 +55,15 @@
            }
        }
    </style>
+   <link rel="stylesheet" href="style1.css">
 </head>
 <body>
+    <div class="header_portion">
+        <img src="paw.png" alt="Paw Print Logo">
+        <h4><b>PAW PRINT</b></h4>
+        <h3>Welcome to the world of pets</h3>
+        <img src="pawtrail-removebg-preview.png"class="pettrail" alt="paw print trail" height="200" width="90" >
+    </div>
    <h1>Confused about how to help your pet?</h1>
    <p style="text-align: center;">As a pet parent you want to do everything you can to care for your pet; this involves regular, everyday activities to ensure they stay happy and healthy. Practice these ten responsible pet care tips year after year for a lifetime of happy and healthy cats and dogs.</p>
 
