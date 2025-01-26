@@ -26,7 +26,7 @@ A fun website for petowners for tips and to enroll their pets for a talent show.
 For Software:
 - Frontend-HTML,CSS,JavaScript
 
-# Screenshots (Add at least 3)
+# Screenshots
 
 ![WhatsApp Image 2025-01-26 at 8 16 30 AM](https://github.com/user-attachments/assets/7f27604a-99da-4939-8679-948eece16992)
 Homepage
