@@ -3,14 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FAQ Tabs</title>
     <link rel="stylesheet" href="style1.css">
     <style>
-         h1 {
-           text-align: center;
-           margin-top: 30px;
-           font-size: 500;
-       }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8B4513;
+            color: #000;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            color: #000;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: 1px solid #000;
+            background-color: #62390b;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .tab.active {
+            background-color: #995910;
+            color: #381404;
+            border-color: #923a1a;
+        }
+
+        .tab:hover {
+            background-color: #7c3f09d6;
+        }
+
+        .tab-content {
+            display: none;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .faq-box {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #FAD6A5;
+            box-shadow: 2px 2px 5px rgba(190, 99, 15, 0.1);
+        }
+
+        .faq-box strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+            color: #000000;
+        }
+
+        .faq-box:hover {
+            background-color: #995910;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+        }
     </style>
 </head>
 <body>
@@ -20,6 +85,99 @@
         <h3>Welcome to the world of pets</h3>
         <img src="pawtrail-removebg-preview.png"class="pettrail" alt="paw print trail" height="200" width="90" >
     </div>
-    <h1> Frequently Asked Questions</h1>
+    <h1>Frequently Asked Questions</h1>
+    <div class="tabs">
+        <div class="tab active" onclick="showTabContent(0)">Dogs</div>
+        <div class="tab" onclick="showTabContent(1)">Cats</div>
+        <div class="tab" onclick="showTabContent(2)">Rodents</div>
+        <div class="tab" onclick="showTabContent(3)">Reptiles</div>
+        <div class="tab" onclick="showTabContent(4)">General</div>
+    </div>
+
+    <div class="tab-content active">
+        <div class="faq-box">
+            <strong>Why does my dog wag its tail when it’s happy to see me?</strong>
+            Dogs wag their tails as part of their body language to communicate emotions. A loosely wagging tail generally signals friendliness or excitement.
+        </div>
+        <div class="faq-box">
+            <strong>Why do dogs bark?</strong>
+            Barking is a dog’s way of communicating with humans and other animals. Dogs may bark out of excitement, alertness, or to express needs like hunger or discomfort.
+        </div>
+        <div class="faq-box">
+            <strong>Why does my dog sometimes howl?</strong>
+            Howling is an inherited behavior from wolves, who used it to communicate over long distances.
+        </div>
+        <div class="faq-box">
+            <strong>Why don’t dogs get hoarse when they bark a lot?</strong>
+            A dog’s vocal cords are designed to produce repetitive sounds without strain, unlike humans who can experience hoarseness.
+        </div>
+        <div class="faq-box">
+            <strong>Why should I walk my dog every day?</strong>
+            Walking provides physical exercise, mental stimulation, and social interaction for dogs, improving their overall health and well-being.
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="faq-box">
+            <strong>Why does my cat purr?</strong>
+            Cats purr to show contentment and as a form of communication. Kittens purr while nursing, and mother cats purr in response.
+        </div>
+        <div class="faq-box">
+            <strong>Why does my cat arch its back?</strong>
+            A cat arches its back when feeling threatened, defensive, or during playful interactions and stretches.
+        </div>
+        <div class="faq-box">
+            <strong>How does a cat’s tail help keep it balanced?</strong>
+            A cat’s tail helps it navigate narrow surfaces and aids in its righting reflex, allowing it to land on its feet when falling.
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="faq-box">
+            <strong>Why do mice cry red tears?</strong>
+            Mice and rats secrete a red pigment called porphyrin from a gland near their eyes when stressed or unwell.
+        </div>
+        <div class="faq-box">
+            <strong>Why does my guinea pig have buck teeth?</strong>
+            Guinea pigs have continuously growing incisors, which require gnawing on wood or special sticks to prevent overgrowth.
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="faq-box">
+            <strong>Can my turtle take off its shell?</strong>
+            No, a turtle’s shell is part of its skeleton and cannot be removed without harming the animal.
+        </div>
+        <div class="faq-box">
+            <strong>Why do I need to wash my hands after handling a pet turtle?</strong>
+            Turtles can carry salmonella bacteria, which can cause illness in humans. Always wash your hands after handling turtles.
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div class="faq-box">
+            <strong>Is it okay to bring my pet snake to school for show and tell?</strong>
+            Bringing pets to school requires permission from parents and teachers. Animals should always be securely contained and handled carefully.
+        </div>
+        <div class="faq-box">
+            <strong>What do I do if my pet dies?</strong>
+            Losing a pet is emotionally challenging. Options include burial (if permitted), cremation, or creating meaningful rituals to remember them.
+        </div>
+    </div>
+
+    <script>
+        function showTabContent(index) {
+            const tabs = document.querySelectorAll('.tab');
+            const contents = document.querySelectorAll('.tab-content');
+
+            tabs.forEach((tab, i) => {
+                tab.classList.toggle('active', i === index);
+            });
+
+            contents.forEach((content, i) => {
+                content.classList.toggle('active', i === index);
+            });
+        }
+    </script>
 </body>
 </html>
