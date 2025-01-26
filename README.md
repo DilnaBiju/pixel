@@ -27,37 +27,26 @@ For Software:
 - Frontend-HTML,CSS,JavaScript
 
 # Screenshots (Add at least 3)
+
+![WhatsApp Image 2025-01-26 at 8 16 30 AM](https://github.com/user-attachments/assets/7f27604a-99da-4939-8679-948eece16992)
+Homepage
+
 ![WhatsApp Image 2025-01-26 at 8 16 31 AM](https://github.com/user-attachments/assets/23040468-5ebc-45a3-a816-c0579582add1)
 
-*Add caption explaining what this shows*
+Pet Care Tips Page 
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
+![WhatsApp Image 2025-01-26 at 8 26 39 AM](https://github.com/user-attachments/assets/35518fff-a2bc-411e-b67c-505ab180110a)
+FAQ page
 
 # Build Photos
-![Team](Add photo of your team here)
+![WhatsApp Image 2025-01-26 at 8 16 29 AM](https://github.com/user-attachments/assets/fc37a1c6-0e35-4dd7-95ae-4211e4ada743)
 
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 
 ---
