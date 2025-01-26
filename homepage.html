@@ -15,14 +15,28 @@
     </div>
     <div class="button-container">
         <button><a href="tips.html" style="color: black; font-family: cursive;">Hey! here is Pet Care Tips</a></button>
-        <button><a href="faq.html" style="color: black; font-family: cursive;">Hey..let's see some pictures</a></button>
-        <button>Frequently Asked Questions ?</button>
-        <button>Hurray! Tail of the Month</button>
+        <button><a href="faq.html" style="color: black; font-family: cursive;">Frequently Asked Questions ?</a></button>
+        <button><a href="em-paw-erment.html" style="color: black; font-family: cursive;">Hey! Enroll in a competition </a></button>
+        <button>Hurray! Tail of the Month</a></button>
 
     </div>
     <div class="petfam-pic">
         <img src="pets-removebg-preview.png"  class="petsfam" alt="pet are fam" height="150" width="800" >
     </div>
+    <script>
+        function showTabContent(index) {
+            const tabs = document.querySelectorAll('.tab');
+            const contents = document.querySelectorAll('.tab-content');
+
+            tabs.forEach((tab, i) => {
+                tab.classList.toggle('active', i === index);
+            });
+
+            contents.forEach((content, i) => {
+                content.classList.toggle('active', i === index);
+            });
+        }
+    </script>
 </body>
 </html>
 
