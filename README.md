@@ -44,8 +44,8 @@ FAQ page
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1mjFPMQ8Izldc508uc4LYJCd-O9PSnR5b/view?usp=drive_link
+A video showing the working of all features in the website 
 
 
 
